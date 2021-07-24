@@ -11,6 +11,10 @@ public class Playfab_Controller : MonoBehaviour
     private string userEmail;
     private string userPassword;
     private string userName;
+    [SerializeField]
+    private GameObject LoginMenu;
+    [SerializeField]
+    private GameObject RegisterMenu;
 
     private void OnEnable()
     {
@@ -60,8 +64,8 @@ public class Playfab_Controller : MonoBehaviour
 
     private void OnLoginFailure(PlayFabError error)
     {
-        var registerRequest = new RegisterPlayFabUserRequest { Email = userEmail, Password = userPassword, Username = userName };
-        PlayFabClientAPI.RegisterPlayFabUser(registerRequest, OnRegisterSucesss, OnRegisterFailure);
+        print("Login failed");
+        Debug.LogError(error.GenerateErrorReport());
     }
 
     private void OnRegisterFailure(PlayFabError error)
@@ -91,6 +95,24 @@ public class Playfab_Controller : MonoBehaviour
         var request = new LoginWithEmailAddressRequest { Email = userEmail, Password = userPassword };
         PlayFabClientAPI.LoginWithEmailAddress(request, OnLoginSuccess, OnLoginFailure);
     }
+
+    public void OnClickCreateAccount()
+    {
+        var registerRequest = new RegisterPlayFabUserRequest { Email = userEmail, Password = userPassword, Username = userName };
+        PlayFabClientAPI.RegisterPlayFabUser(registerRequest, OnRegisterSucesss, OnRegisterFailure);
+    }
+    public void OnClickRegister()
+    {
+        LoginMenu.SetActive(false);
+        RegisterMenu.SetActive(true);
+    }
+
+    public void OnClickBack()
+    {
+        LoginMenu.SetActive(true);
+        RegisterMenu.SetActive(false);
+    }
+
     #endregion Login
 
     #region player_stats

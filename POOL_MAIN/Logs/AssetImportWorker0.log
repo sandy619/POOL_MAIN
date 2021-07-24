@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/Unity Projects/POOL_MAIN
+D:/GithubLocal/POOL_MAIN/POOL_MAIN
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59633
-Successfully changed project path to: D:/Unity Projects/POOL_MAIN
-D:/Unity Projects/POOL_MAIN
+57558
+Successfully changed project path to: D:/GithubLocal/POOL_MAIN/POOL_MAIN
+D:/GithubLocal/POOL_MAIN/POOL_MAIN
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 23.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity Projects/POOL_MAIN/Assets
+[Subsystems] Discovering subsystems at path D:/GithubLocal/POOL_MAIN/POOL_MAIN/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,562 +35,122 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001038 seconds.
+Registered in 0.001134 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.928 seconds
+- Completed reload, in  0.962 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.227385 seconds.
+Registered in 0.003203 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.956 seconds
+- Completed reload, in  1.325 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.6 MB.
-System memory in use after: 64.7 MB.
+Unloading 1660 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.8 MB.
+System memory in use after: 77.9 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1819.
-Total: 1.842700 ms (FindLiveObjects: 0.181900 ms CreateObjectMapping: 0.044300 ms MarkObjects: 1.534400 ms  DeleteObjects: 0.079900 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2093.
+Total: 2.852600 ms (FindLiveObjects: 0.198800 ms CreateObjectMapping: 0.083000 ms MarkObjects: 2.445400 ms  DeleteObjects: 0.123500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Login_Playfab/Playfab_Controller.cs
+  artifactKey: Guid(0a36405a103cf0e4f8c967638869106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Login_Playfab/Playfab_Controller.cs using Guid(0a36405a103cf0e4f8c967638869106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f4fae0c90faf5f0d9f7aca5c72f3bb') in 0.023404 seconds
+  Import took 0.025974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 208.449866 seconds.
+  path: Assets/Scripts/Login_Playfab/Playfab_Controller.cs
+  artifactKey: Guid(0a36405a103cf0e4f8c967638869106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Login_Playfab/Playfab_Controller.cs using Guid(0a36405a103cf0e4f8c967638869106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f46b8ac042421de9a8b3c98f6ab5190') in 0.002126 seconds
+  Import took 0.006745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.359705 seconds.
+  path: Assets/Scripts/Login_Playfab/Playfab_Controller.cs
+  artifactKey: Guid(0a36405a103cf0e4f8c967638869106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Login_Playfab/Playfab_Controller.cs using Guid(0a36405a103cf0e4f8c967638869106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87de6fe0bd1e92573c787f7fcd702c06') in 0.002189 seconds
+  Import took 0.005137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.360321 seconds.
+  path: Assets/Scripts/Login_Playfab/Playfab_Controller.cs
+  artifactKey: Guid(0a36405a103cf0e4f8c967638869106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Login_Playfab/Playfab_Controller.cs using Guid(0a36405a103cf0e4f8c967638869106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46e1b18c922ed84564ef49a699ee1da') in 0.001823 seconds
+  Import took 0.012798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002432 seconds.
+  path: Assets/Scripts/Login_Playfab/Playfab_Controller.cs
+  artifactKey: Guid(0a36405a103cf0e4f8c967638869106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Login_Playfab/Playfab_Controller.cs using Guid(0a36405a103cf0e4f8c967638869106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46e1b18c922ed84564ef49a699ee1da') in 0.001872 seconds
+  Import took 0.005282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.400657 seconds.
+  path: Assets/Scripts/Login_Playfab/Playfab_Controller.cs
+  artifactKey: Guid(0a36405a103cf0e4f8c967638869106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Login_Playfab/Playfab_Controller.cs using Guid(0a36405a103cf0e4f8c967638869106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6838c8e4cf1ea5c00047920fdade8f23') in 0.001802 seconds
+  Import took 0.005097 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003452 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.867 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1526 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.5 MB.
-System memory in use after: 69.6 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1963.
-Total: 1.824700 ms (FindLiveObjects: 0.153100 ms CreateObjectMapping: 0.054700 ms MarkObjects: 1.546200 ms  DeleteObjects: 0.069600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
-  artifactKey: Guid(3287e716c3103974e9dee2916ad2e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(3287e716c3103974e9dee2916ad2e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd674ef8d7e0e273bc36793830d895de4') in 0.027402 seconds
-  Import took 0.029831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010359 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
-  artifactKey: Guid(3287e716c3103974e9dee2916ad2e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(3287e716c3103974e9dee2916ad2e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd674ef8d7e0e273bc36793830d895de4') in 0.001650 seconds
-  Import took 0.003807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.663465 seconds.
-  path: Assets/Scenes/LOBBY.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LOBBY.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fa0c5712fc88e441e5410e19f2d10e') in 0.007567 seconds
-  Import took 0.010538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001783 seconds.
-  path: Assets/Scenes/LOBBY.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LOBBY.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fa0c5712fc88e441e5410e19f2d10e') in 0.002105 seconds
-  Import took 0.004629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.381503 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.006354 seconds
-  Import took 0.010360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.986543 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(b70cae90ed8dace4eaeceea6aed0e852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(b70cae90ed8dace4eaeceea6aed0e852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f7fab9009b2610107c65087c99e88d') in 0.009293 seconds
-  Import took 0.013975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 104.540047 seconds.
-  path: Assets/Resources/Resources
-  artifactKey: Guid(16bce984dbddbb04895aaf7a6868c8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Resources using Guid(16bce984dbddbb04895aaf7a6868c8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1891b8001b371f448b395b6f16df70') in 0.003309 seconds
-  Import took 0.005922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009204 seconds.
-  path: Assets/Resources/Resources
-  artifactKey: Guid(16bce984dbddbb04895aaf7a6868c8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Resources using Guid(16bce984dbddbb04895aaf7a6868c8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1891b8001b371f448b395b6f16df70') in 0.001525 seconds
-  Import took 0.004069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.721673 seconds.
-  path: Assets/Resources/Resources/PhotonPrefabs
-  artifactKey: Guid(f01ade1ce04d6084fb69e764efdfc1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Resources/PhotonPrefabs using Guid(f01ade1ce04d6084fb69e764efdfc1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad728c25ec886a649244e4c269047b92') in 0.008680 seconds
-  Import took 0.011327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.229342 seconds.
-  path: Assets/Resources/Resources/PhotonPrefabs/PlayerManager.prefab
-  artifactKey: Guid(98c68da50e4c7ad4899516be3fcd1875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Resources/PhotonPrefabs/PlayerManager.prefab using Guid(98c68da50e4c7ad4899516be3fcd1875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1c4e3e22fb2cb654682a66d36d1435') in 0.020717 seconds
-  Import took 0.023366 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002880 seconds.
+Registered in 0.002598 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.870 seconds
+- Completed reload, in  0.982 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1538 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.5 MB.
-System memory in use after: 70.9 MB.
+Unloading 1640 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.4 MB.
+System memory in use after: 76.5 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1967.
-Total: 2.042200 ms (FindLiveObjects: 0.150500 ms CreateObjectMapping: 0.040700 ms MarkObjects: 1.578300 ms  DeleteObjects: 0.271800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.777049 seconds.
-  path: Assets/Resources/Resources/PhotonPrefabs/PlayerController.prefab
-  artifactKey: Guid(ba3de305978c2e14e9f7939344ede4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Resources/PhotonPrefabs/PlayerController.prefab using Guid(ba3de305978c2e14e9f7939344ede4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78de61d8fcce8b24a975f36bbd3d75b') in 0.087868 seconds
-  Import took 0.090651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.356252 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
-  artifactKey: Guid(3287e716c3103974e9dee2916ad2e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(3287e716c3103974e9dee2916ad2e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba755e707631257fcf48b02503fa966') in 0.002756 seconds
-  Import took 0.005581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007657 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
-  artifactKey: Guid(3287e716c3103974e9dee2916ad2e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(3287e716c3103974e9dee2916ad2e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba755e707631257fcf48b02503fa966') in 0.009552 seconds
-  Import took 0.012409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.664696 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(2081053cb510cd743933b4f005506129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(2081053cb510cd743933b4f005506129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c3de933b8cd2e1d6db2863fa0db90b') in 0.005846 seconds
-  Import took 0.009473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001116 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(2081053cb510cd743933b4f005506129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(2081053cb510cd743933b4f005506129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c3de933b8cd2e1d6db2863fa0db90b') in 0.001844 seconds
-  Import took 0.004459 seconds .
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2098.
+Total: 2.055700 ms (FindLiveObjects: 0.168200 ms CreateObjectMapping: 0.049300 ms MarkObjects: 1.780500 ms  DeleteObjects: 0.056900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003095 seconds.
+Registered in 0.003914 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.033 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1538 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.7 MB.
-System memory in use after: 74.1 MB.
-
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 1979.
-Total: 1.930500 ms (FindLiveObjects: 0.127900 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.466800 ms  DeleteObjects: 0.293800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.788492 seconds.
-  path: Assets/Scenes/Login.unity
-  artifactKey: Guid(b4bcc7039014628459abf62f8a1303c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Login.unity using Guid(b4bcc7039014628459abf62f8a1303c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d3bb671bbb08da7813cfa3311c0e02') in 0.012706 seconds
-  Import took 0.014875 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002679 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-PlayFab.PfEditor.PlayFabEditorPrefsSO:get_Instance () (at Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorPrefsSO.cs:38)
-PlayFab.PfEditor.SubMenuComponent:RegisterMenuItem (string,System.Action) (at Assets/PlayFabEditorExtensions/Editor/Scripts/Components/SubMenuComponent.cs:42)
-PlayFab.PfEditor.PlayFabEditorDataMenu:RegisterMenu () (at Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorDataMenu.cs:93)
-PlayFab.PfEditor.PlayFabEditorDataMenu:.cctor () (at Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorDataMenu.cs:74)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorPrefsSO.cs line 38]
-
-UnityEngine.UnityException: Creating asset at path Assets/PlayFabEditorExtensions/Editor/Resources/PlayFabEditorPrefsSO.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at PlayFab.PfEditor.PlayFabEditorPrefsSO.get_Instance () [0x00084] in D:\Unity Projects\POOL_MAIN\Assets\PlayFabEditorExtensions\Editor\Scripts\Utils\PlayFabEditorPrefsSO.cs:38 
-  at PlayFab.PfEditor.SubMenuComponent.RegisterMenuItem (System.String n, System.Action m) [0x00010] in D:\Unity Projects\POOL_MAIN\Assets\PlayFabEditorExtensions\Editor\Scripts\Components\SubMenuComponent.cs:42 
-  at PlayFab.PfEditor.PlayFabEditorDataMenu.RegisterMenu () [0x00018] in D:\Unity Projects\POOL_MAIN\Assets\PlayFabEditorExtensions\Editor\Scripts\Panels\PlayFabEditorDataMenu.cs:93 
-  at PlayFab.PfEditor.PlayFabEditorDataMenu..cctor () [0x0003a] in D:\Unity Projects\POOL_MAIN\Assets\PlayFabEditorExtensions\Editor\Scripts\Panels\PlayFabEditorDataMenu.cs:74 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.364 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.9 MB.
-System memory in use after: 75.4 MB.
-
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2016.
-Total: 3.124300 ms (FindLiveObjects: 0.175300 ms CreateObjectMapping: 0.053900 ms MarkObjects: 2.454000 ms  DeleteObjects: 0.439800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003191 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.040 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1653 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.9 MB.
-System memory in use after: 80.3 MB.
-
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2108.
-Total: 2.097300 ms (FindLiveObjects: 0.136900 ms CreateObjectMapping: 0.047900 ms MarkObjects: 1.639300 ms  DeleteObjects: 0.272200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 118.495043 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/Resources/PlayFabEditorPrefsSO.asset
-  artifactKey: Guid(7f0f895d20658f142a06dc4fb49dce02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/Resources/PlayFabEditorPrefsSO.asset using Guid(7f0f895d20658f142a06dc4fb49dce02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703cc906f82ba0839a500e06422e87e5') in 0.015926 seconds
-  Import took 0.019258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008594 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/Resources/PlayFabEditorPrefsSO.asset
-  artifactKey: Guid(7f0f895d20658f142a06dc4fb49dce02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/Resources/PlayFabEditorPrefsSO.asset using Guid(7f0f895d20658f142a06dc4fb49dce02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703cc906f82ba0839a500e06422e87e5') in 0.002529 seconds
-  Import took 0.005624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.929559 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef
-  artifactKey: Guid(8f342294dfb958a4694b67859092b749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef using Guid(8f342294dfb958a4694b67859092b749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c7a37ba4a631a639d64837067afaf4') in 0.017044 seconds
-  Import took 0.020206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.486850 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/PlayFabEditor.cs
-  artifactKey: Guid(1c7b3fb0903da7c48a812037b700de8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/PlayFabEditor.cs using Guid(1c7b3fb0903da7c48a812037b700de8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6457481693e279bcf6ad7d8bd3e3b866') in 0.010139 seconds
-  Import took 0.012886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031044 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/PlayFabEditor.cs
-  artifactKey: Guid(1c7b3fb0903da7c48a812037b700de8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/PlayFabEditor.cs using Guid(1c7b3fb0903da7c48a812037b700de8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6457481693e279bcf6ad7d8bd3e3b866') in 0.001600 seconds
-  Import took 0.004291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.337367 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/PlayFabEditorApi.cs
-  artifactKey: Guid(78d90281a98aa9c47af733ae62f11a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/PlayFabEditorApi.cs using Guid(78d90281a98aa9c47af733ae62f11a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbadf6da12a61b19a1161ec3943818a9') in 0.006403 seconds
-  Import took 0.009918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.753411 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorAuthenticate.cs
-  artifactKey: Guid(5391580e006220946a84ab25acd7096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorAuthenticate.cs using Guid(5391580e006220946a84ab25acd7096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d14edfa06c488223c45c4ae22c8294b') in 0.006724 seconds
-  Import took 0.009731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.937016 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorDataMenu.cs
-  artifactKey: Guid(473b8182a10e24fd0aebe832f98f7779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorDataMenu.cs using Guid(473b8182a10e24fd0aebe832f98f7779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377dfa9c0c06a4ce9c147cbb39b4d078') in 0.006688 seconds
-  Import took 0.009744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.140268 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorDataService.cs
-  artifactKey: Guid(c4c398f1711644e79aae821d377e572e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorDataService.cs using Guid(c4c398f1711644e79aae821d377e572e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6f2891bff8cfeec8dd86c0cf1a455c') in 0.006814 seconds
-  Import took 0.267821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.288404 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorHeader.cs
-  artifactKey: Guid(cd7bce14a0a4b2a4a827a4ffd4d24849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorHeader.cs using Guid(cd7bce14a0a4b2a4a827a4ffd4d24849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6088b6b2e2cfef58158356e3fa85a3') in 0.017145 seconds
-  Import took 0.020172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.445214 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorHelper.cs
-  artifactKey: Guid(b7a0580bf951d2f46861fe4785bf74f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorHelper.cs using Guid(b7a0580bf951d2f46861fe4785bf74f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd376fbe2a52640f7f196b31824d756e6') in 0.096005 seconds
-  Import took 0.099599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.427276 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorHelpMenu.cs
-  artifactKey: Guid(ef5d79e80acc44a588d53dea61dcfc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorHelpMenu.cs using Guid(ef5d79e80acc44a588d53dea61dcfc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39c6250b0bc9906e17db569cd1d5b76') in 0.006664 seconds
-  Import took 0.010013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.334657 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/PlayFabEditorHttp.cs
-  artifactKey: Guid(f495d2bd2522f354d82ab4c043cbc727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/PlayFabEditorHttp.cs using Guid(f495d2bd2522f354d82ab4c043cbc727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef318a6c7ce9ce8cfdaf050e0a8006bf') in 0.006103 seconds
-  Import took 0.037889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.442469 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorVersion.cs
-  artifactKey: Guid(24ef2cb033a5dfd4588226fe1447bf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorVersion.cs using Guid(24ef2cb033a5dfd4588226fe1447bf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3317ba4012ff800b55625a9a726772') in 0.006595 seconds
-  Import took 0.009813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004393 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorVersion.cs
-  artifactKey: Guid(24ef2cb033a5dfd4588226fe1447bf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorVersion.cs using Guid(24ef2cb033a5dfd4588226fe1447bf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3317ba4012ff800b55625a9a726772') in 0.001874 seconds
-  Import took 0.005539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.375205 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorUtils.cs
-  artifactKey: Guid(b422838f8121dc44ca79ceeea8582a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorUtils.cs using Guid(b422838f8121dc44ca79ceeea8582a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0391c7dcf2a7335a1bbcb1a08eb82503') in 0.008244 seconds
-  Import took 0.013600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.008846 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorToolsMenu.cs
-  artifactKey: Guid(656ebe473a0de47c885424ad7816f408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorToolsMenu.cs using Guid(656ebe473a0de47c885424ad7816f408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64365f1a4c999b0778a72b80f1ac7e5e') in 0.006548 seconds
-  Import took 0.009376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000920 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorToolsMenu.cs
-  artifactKey: Guid(656ebe473a0de47c885424ad7816f408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorToolsMenu.cs using Guid(656ebe473a0de47c885424ad7816f408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64365f1a4c999b0778a72b80f1ac7e5e') in 0.001916 seconds
-  Import took 0.005903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.772992 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorSettings.cs
-  artifactKey: Guid(cab05e4a89850364e8979904f46d0433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorSettings.cs using Guid(cab05e4a89850364e8979904f46d0433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24382874b3eb6137d127e0cce021b93c') in 0.006140 seconds
-  Import took 0.008921 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.035952 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.970 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1652 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.9 MB.
-System memory in use after: 80.3 MB.
-
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2113.
-Total: 2.370900 ms (FindLiveObjects: 0.223100 ms CreateObjectMapping: 0.059700 ms MarkObjects: 1.750900 ms  DeleteObjects: 0.335900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 126.041880 seconds.
-  path: Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorDataService.cs
-  artifactKey: Guid(c4c398f1711644e79aae821d377e572e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorDataService.cs using Guid(c4c398f1711644e79aae821d377e572e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e0fa4f4a5bb724b3390914877a071a') in 0.007046 seconds
-  Import took 0.018474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.147435 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(752efcd0bbdb27849b071c3fa1ce17a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(752efcd0bbdb27849b071c3fa1ce17a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57ea6a9bda744d741027497fd306030') in 0.089454 seconds
-  Import took 0.092267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.917967 seconds.
-  path: Assets/Scripts/Login_Playfab
-  artifactKey: Guid(98beac22f47c73a46bfe1e9cc1b41351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Login_Playfab using Guid(98beac22f47c73a46bfe1e9cc1b41351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4aa0777511e431e553e0e1e2ab4334') in 0.007059 seconds
-  Import took 0.009705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004582 seconds.
-  path: Assets/Scripts/Login_Playfab
-  artifactKey: Guid(98beac22f47c73a46bfe1e9cc1b41351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Login_Playfab using Guid(98beac22f47c73a46bfe1e9cc1b41351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4aa0777511e431e553e0e1e2ab4334') in 0.002286 seconds
-  Import took 0.005365 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.033852 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.971 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1653 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.9 MB.
-System memory in use after: 80.3 MB.
-
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2119.
-Total: 2.205600 ms (FindLiveObjects: 0.164800 ms CreateObjectMapping: 0.059100 ms MarkObjects: 1.669100 ms  DeleteObjects: 0.311600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 156.517485 seconds.
-  path: Assets/Scenes/Game.unity
-  artifactKey: Guid(fa2989d3d300f324cbb763fcb0a74859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game.unity using Guid(fa2989d3d300f324cbb763fcb0a74859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb2e9462e13fd0839e8b3fb2b3b69c0') in 0.097616 seconds
-  Import took 0.100327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.584089 seconds.
-  path: Assets/Scenes/PlyFabMenu.unity
-  artifactKey: Guid(6393285c85874f04c9ab48c18b511fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PlyFabMenu.unity using Guid(6393285c85874f04c9ab48c18b511fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66281a99ca95404a3e31dbb57e825aef') in 0.007066 seconds
-  Import took 0.112959 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.198946 seconds.
-  path: Assets/Scenes/PlyFabMenu.unity
-  artifactKey: Guid(6393285c85874f04c9ab48c18b511fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PlyFabMenu.unity using Guid(6393285c85874f04c9ab48c18b511fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ecbe6c37d2d9d42c0fa3cd11c4f11b') in 0.002527 seconds
-  Import took 0.005580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.262641 seconds.
-  path: Assets/Scenes/LOGIN_playfab.unity
-  artifactKey: Guid(6393285c85874f04c9ab48c18b511fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LOGIN_playfab.unity using Guid(6393285c85874f04c9ab48c18b511fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd339102c59fed452b23096a0b6b521') in 0.007593 seconds
-  Import took 0.012386 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004135 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.525 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1653 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.9 MB.
-System memory in use after: 80.4 MB.
+Unloading 1640 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.5 MB.
+System memory in use after: 76.6 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2124.
-Total: 4.531500 ms (FindLiveObjects: 0.399200 ms CreateObjectMapping: 0.131500 ms MarkObjects: 3.539900 ms  DeleteObjects: 0.458700 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2103.
+Total: 3.462400 ms (FindLiveObjects: 0.539600 ms CreateObjectMapping: 0.129500 ms MarkObjects: 2.717900 ms  DeleteObjects: 0.072500 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
